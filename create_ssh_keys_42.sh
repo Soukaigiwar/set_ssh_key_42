@@ -12,7 +12,7 @@ echo "With this email address: $EMAIL ."
 echo ""
 ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/$SSH_NAME -C "$EMAIL" && 
 eval "$(ssh-agent -s)" &&
-echo "ssh-add ~/.ssh/$SSH_NAME &&"
+ssh-add ~/.ssh/$SSH_NAME &&
 echo "==========================================================" &&
 echo "=----COPY THIS PUBLIC KEY AND PASTE INTO THE 42 INTRA----=" &&
 echo "==========================================================" &&
