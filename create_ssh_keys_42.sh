@@ -1,4 +1,10 @@
 #!/bin/sh
+echo "What you wanna do? Create a new ssh key or you have your own private ssh key?"
+echo "Please type [have] or [new]"
+echo ""
+read NEW_HAVE
+if [$NEW_HAVE = "new"]; then
+
 echo "SSH file name?"
 echo ""
 read SSH_NAME
