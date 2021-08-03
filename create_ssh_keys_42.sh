@@ -1,4 +1,4 @@
-# #!/bin/sh
+#!/bin/sh
 item=$(whiptail \
       --title "SSH key pair Generator" \
       --menu "Chose if will create a new key pair, \n \
